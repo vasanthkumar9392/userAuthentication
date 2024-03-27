@@ -1,0 +1,34 @@
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{
+  "username": "vasanth9392",
+  "name": "vasavi",
+  "password": "93",
+  "gender": "female",
+  "location": "delhi"
+}
+
+###
+GET http://localhost:3000/register/
+
+###
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+  "username": "adam_richard",
+  "password": "richard_567"
+}
+
+###
+PUT http://localhost:3000/change-password/
+Content-Type: application/json
+
+{
+  "username": "vasavi93",
+  "oldPassword": "939250",
+  "newPassword": "ok@123"
+}
+
+###
